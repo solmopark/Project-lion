@@ -6,24 +6,24 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Project-lion|비상업적 가시안이며 취업지원 포트폴리오 용도로만 사용됩니다.|</title>
+  <!--제이쿼리-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <!--스와이퍼-->
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
-  <!--제이쿼리-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <!--테일윈드-->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.csss">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css">
   <!--폰트어썸-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
   <link rel="stylesheet" href="index.css">
-  <script defer type="text/javascript" src="index.js"></script>
+  
 </head>
 
 <body>
   <!--------공통탑-------->
 
-  <section class="top-bar fixed top-0 left-0 z-50 bg-transparent ">
+  <header class="top-bar fixed top-0 left-0 z-50 bg-transparent ">
     <!-- 탑-효과 -->
     <div
       class="absolute w-full h-16 transform -translate-x-1/2 top-0 bg-gradient-to-b from-black to-transparent opacity-20"
@@ -58,7 +58,7 @@
         </li>
       </ul>
     </div>
-  </section>
+  </header>
 
   <!----슬라이더----->
   <section class="section-top-slider relative ">
@@ -569,7 +569,7 @@ rounded-lg ">
   </section>
 
   <!---- 공통-푸터 ---->
-  <footer class="footer-box bg-white border-t border-gra-300" style="min-width:320px;">
+  <section class="footer-box bg-white border-t border-gra-300" style="min-width:320px;">
     <section class="px-4 xl:px-6 py-8  max-w-7xl mx-auto">
       <!--푸터-1-->
       <div class="footer-list-1 con py-3 mx-auto">
@@ -643,7 +643,7 @@ rounded-lg ">
       <hr class="border-gray-300 w-full mt-8 lg:mt-6">
 
       <!--푸터-2-->
-      <section class="footer-list-2 mt-8 cursor-pointer text-gray-500">
+      <nav class="footer-list-2 mt-8 cursor-pointer text-gray-500">
         <!--약관 및 규정-->
         <div class="footer-list-2__bar-1 flex items-center space-x-2 text-sm ">
 
@@ -682,9 +682,11 @@ rounded-lg ">
           <spen>주소 : 서울특별시 강남구 봉은사로82길 13</spen>
         </div>
 
-      </section>
+      </nav>
     </section>
-  </footer>
+  </section>
+
+  <script type="text/javascript" src="index.js"></script>
 </body>
 
 </html>

@@ -15,7 +15,7 @@ function TopBar__init() {
 TopBar__init();
 
 function Slider1__init() {
-  const swiper = new Swiper('.swiper', {
+  const swiper = new Swiper('.slider-1 .swiper', {
     // Optional parameters
     //direction: 'vertical', --> 이걸 지우면 수직으로 나옴
 

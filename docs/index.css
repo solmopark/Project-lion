@@ -101,7 +101,7 @@ body {
 /* bg-img-반응형 */
 @media (max-width:900px) {
   .slider-1__slide-3 {
-    background-image: url(https://d35ai18pny966l.cloudfront.net/course/clayful_carousel_768.png);
+    background-image: url(https://cdn.jsdelivr.net/gh/solmopark/Project-lion/docs/img/clayful_.png);
     background-size: auto 100%;
   }
 }
