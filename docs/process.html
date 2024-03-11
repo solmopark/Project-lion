@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-lion_Process|비상업적 가시안이며 취업지원 포트폴리오 용도로만 사용됩니다.|</title>
+  <!--스와이퍼-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <!--제이쿼리-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!--테일윈드-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--폰트어썸-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/process.css">
+  <script defer type="text/javascript" src="js/process.js"></script>
+</head>
+
+<body>
+  <!--탑바-->
+  <header class="top-bar fixed top-0 left-0 w-full h-16 bg-white border-b" style="border-color: #e5e5e5;">
+    <div class="max-w-7xl mx-auto pl-4 lg:pl-6 pr-4 py-3  h-full">
+      <div class="flex justify-between items-center h-full">
+        <a href="https://solmopark.github.io/Project-lion/" class="text-center">
+          <img src="img/logo-ori.png" alt="logo" class="hidden lg:inline-block" style="height: 18px;">
+          <img src="img/logo-small.png" alt="two line logo" class="inline-block lg:hidden"
+            style="height: 36px;"></a>
+        <div class="flex items-center">
+          <div class="icon">
+            <a href="index.html" class="flex items-center space-x-3">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-6 h-auto">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+              </svg>
+            </a>
+          </div>
+          <a href="log.html" class="flex font-semibold text-sm hidden lg:block ml-3">로그인</a>
+          <a href="sing.html" class="top-btn ml-4 lg:ml-5 px-4 bg-black">
+            <span class="font-semibold text-sm text-white">가입하기</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--탑바 끝-->
+  <div class="flex-1">
+    <!--배너 시작-->
+    <div class="pt-16 flex-1" style="min-width:320px;">
+      <div class="banner mx-auto"
+        style="background-image:url(https://cdn.jsdelivr.net/gh/solmopark/Project-lion/docs/img/mbti_.png); background-position:50%; background-size:cover;">
+        <div class="hidden md:flex max-w-7xl mx-4 xl:px-6 xl:mx-auto flex-col justify-center h-full">
+          <h2 class="banner__title font-bold mb-4 break-words">
+            돈이 되는 세렝게티 동물 테스트 만들기
+          </h2>
+          <p class="banner__sub">
+            나만의 수익형 성격유형 테스트를 만드는 실전형 강의
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--배너 끝-->
+    <!--모바일-->
+    <div class="banner__mobaile block lg:hidden border-b">
+      <div class="mx-4 pt-5 pb-6 ">
+        <div class="flex justify-between items-start">
+          <h3 class="font-bold mb-6 text-2xl flex-nowrap">돈이 되는 세렝게티 동물 테스트 만들기</h3>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            class="flex-shrink-0 w-6 h-6 mt-1 ml-3 cursor-pointer">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+              d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z">
+            </path>
+          </svg>
+        </div>
+        <div class="flex flex-col">
+          <div class="flex justify-between items-center">
+            <p class="font-bold text-xl">금액</p>
+            <p class="flex items-center font-bold text-3xl">20,000원</p>
+          </div>
+          <hr class="border-gray-300 mt-4 mb-6">
+          <ul>
+            <li class="flex items-center tracking-wide">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-6 h-6 text-gray-500 opacity-40">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+              </svg>
+              <span class="text-sm" style="margin-left:20px;">
+                총 25개 수업 ∙ 2시간 8분
+              </span>
+            </li>
+            <li class="flex items-center my-3 tracking-wide">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-6 h-6 text-gray-500 opacity-40">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+              </svg>
+              <span class="text-sm" style="margin-left:20px;">
+                학습 기간 6주
+              </span>
+            </li>
+            <li class="flex items-center tracking-wide">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                class="w-6 h-6 text-gray-500 opacity-40">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                </path>
+              </svg>
+              <span class="text-sm" style="margin-left:20px;">
+                난이도 입문 이상
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--모바일 끝-->
+    <!--내비 탭-->
+    <div class="nav-tap mx-auto border-gray-200 border-b lg:border-none bg-white lg:bg-gray-100 sticky z-10">
+      <div class="max-w-7xl mx-auto xl:px-6 h-full">
+        <ul class="flex h-full pt-3 px-4 lg:px-6 xl:px-0 whitespace-nowrap overflow-x-auto">
+          <li class="flex flex-col h-full">
+            <a href="#lecture-intro" class="intro block pb-3  h-full" style="font-size:17px;">강의 소개</a>
+          </li>
+          <li class="flex flex-col h-full">
+            <a href="#cur" class="curr block pb-3  h-full" style="font-size:17px; margin-left:24px;">커리큘럼</a>
+          </li>
+          <li class="flex flex-col h-full">
+            <a href="#faq" class="faq block pb-3  h-full" style="font-size:17px; margin-left:24px;">자주 묻는 질문</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--내비 탭 끝-->
+    <!--상세 내용-->
+    <section id="lecture-intro" class="section-1 con mx-auto">
+      <div class="max-w-7xl xl:mx-auto lg:px-4 xl:px-6 mt-10 flex">
+        <div class="lg:flex lg:space-x-6 lg:items-start lg:flex-row">
+          <div class="mt-4 lg:mt-0 lg:w-2/3">
+            <!--강의소개 상세-->
+            <div class="lecture-img">
+              <div>
+                <p style="text-align:center;">
+                  <img alt="" src="https://d35ai18pny966l.cloudfront.net/course/mbti_1024_01.png"
+                    style="width:100%; display:block;">
+                </p>
+                <p style="text-align:center;">
+                  <img alt="" src="https://d35ai18pny966l.cloudfront.net/course/mbti_1024_02.png"
+                    style="width:100%; display:block;">
+                </p>
+                <p style="text-align:center;">
+                  <img alt="" src="https://d35ai18pny966l.cloudfront.net/course/mbti_1024_03.png"
+                    style="width:100%; display:block;">
+                </p>
+                <p style="text-align:center;">
+                  <img alt="" src="https://d35ai18pny966l.cloudfront.net/course/mbti_1024_04.png"
+                    style="width:100%; display:block;">
+                </p>
+                <p style="text-align:center;">
+                  <img alt="" src="https://d35ai18pny966l.cloudfront.net/course/mbti_1024_05.png"
+                    style="width:100%; display:block;">
+                </p>
+              </div>
+            </div>
+            <!--강의소개 상세 끝-->
+            <!--커리+자주-->
+            <div id="cur" class="mx-4 lg:mx-0 ">
+              <!--커리큘럼-->
+              <div class="curriculum pt-20 lg:pt-32">
+                <header class="lg:flex lg:flex-row lg:items-end">
+                  <h2 class="font-bold text-xl lg:text-2xl" style="line-height:30px;">
+                    커리큘럼
+                  </h2>
+                  <div class="flex flex-1 items-center lg:ml-4">
+                    <span class="text-sm text-gray-400 lg:text-base">
+                      총 25개 수업 ∙ 2시간 8분 </span>
+                    <div class="ml-auto ">
+                      <span class="btn-1 text-sm" style="color:#e67800; cursor:pointer;">
+                        모든 챕터 확장
+                      </span>
+                    </div>
+                  </div>
+                </header>
+              </div>
+              <div class="curriculum-un pt-4 lg:pt-6">
+                <ul class="menu border rounded border-gray-300 overflow-hidden">
+                  <li>
+                    <div class="menu-1 flex p-4 max-w-full cursor-pointer bg-gray-50"
+                      style="border-bottom:1px solid rgba(209, 213, 219,1);">
+                      <span class="text-sm lg:text-base">챕터 1. Intro</span>
+                      <span class="lg:flex flex-shrink-0 ml-6 mr-3 lg:mr-0 text-gray-500 hidden">
+                        2개 ∙ 4분
+                      </span>
+                      <span class="c-icon-1 c-icon-1-1 active-1" style="width:20px;"><i
+                          class="fas fa-chevron-down"></i></span>
+                      <span class="c-icon-2 c-icon-2-1" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                    </div>
+                    <ul class="menu-1-1 w-full">
+
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">1
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 ">Intro</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">01:19</span>
+                        </div>
+                      </div>
+
+
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">2
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">성격 유형 테스트의 원리</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">02:57</span>
+                        </div>
+                      </div>
+
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="menu-2 flex p-4 max-w-full cursor-pointer bg-gray-50"
+                      style="border-bottom:1px solid rgba(209, 213, 219,1);">
+                      <span class="text-sm lg:text-base">챕터 2. 세렝게티 동물 테스트 제작하기</span>
+                      <span class="lg:flex flex-shrink-0 ml-6 mr-3 lg:mr-0 text-gray-500 hidden">
+                        16개 ∙ 35분
+                      </span>
+                      <span class="c-icon-1 c-icon-1-2 active-1" style="width:20px;"><i
+                          class="fas fa-chevron-down"></i></span>
+                      <span class="c-icon-2 c-icon-2-2" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                    </div>
+
+                    <ul class="menu-2-1 w-full">
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">1
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 ">미리보기</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">01:12</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">2
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">개발 환경 세팅 (1) - Windows</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">02:57</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">3
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">개발 환경 세팅 (2) - Mac</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">02:38</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">4
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">개발 환경 세팅 (3) - 공통</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">08:20</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">5
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 제작하기 (1)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">06:34</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">6
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 제작하기 (2)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">04:21</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">7
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 제작하기 (3)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">04:02</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">8
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 제작하기 (4)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">10:41</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">9
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 제작하기 (5)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">10:09</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">10
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 제작하기 (6)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">05:41</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">11
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 제작하기 (7)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">04:47</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">12
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 제작하기 (8)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">04:35</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">13
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 제작하기 (9)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">06:11</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">14
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 제작하기 (10)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">06:39</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">15
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">세렝게티 동물 테스트 정리하기</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">05:24</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">16
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">배포하기 (Deploy)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">03:36</span>
+                        </div>
+                      </div>
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="menu-3 flex p-4 max-w-full cursor-pointer bg-gray-50"
+                      style="border-bottom:1px solid rgba(209, 213, 219,1);">
+                      <span class="text-sm lg:text-base">챕터 3. 서비스 고도화하기</span>
+                      <span class="lg:flex flex-shrink-0 ml-6 mr-3 lg:mr-0 text-gray-500 hidden">
+                        6개 ∙ 35분
+                      </span>
+                      <span class="c-icon-1 c-icon-1-3 active-1" style="width:20px;"><i
+                          class="fas fa-chevron-down"></i></span>
+                      <span class="c-icon-2 c-icon-2-3" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                    </div>
+
+                    <ul class="menu-3-1 w-full">
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">1
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 ">SNS 공유 기능 만들기</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">05:02</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">2
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">광고 붙이기 (1)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">06:09</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">3
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">광고 붙이기 (2)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">05:33</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">4
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">네이버에서 내 사이트 검색되도록 만들기</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">08:58</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">5
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">검색엔진 최적화 (SEO)</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">07:53</span>
+                        </div>
+                      </div>
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">6
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 truncate">서비스 완성하기</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">02:20</span>
+                        </div>
+                      </div>
+
+                    </ul>
+                  </li>
+                  <li>
+                    <div class="menu-4 flex p-4 max-w-full cursor-pointer bg-gray-50">
+                      <span class="text-sm lg:text-base">챕터 4. Outro</span>
+                      <span class="lg:flex flex-shrink-0 ml-6 mr-3 lg:mr-0 text-gray-500 hidden">
+                        1개 ∙ 20초
+                      </span>
+                      <span class="c-icon-1 c-icon-1-4 active-1" style="width:20px;"><i
+                          class="fas fa-chevron-down"></i></span>
+                      <span class="c-icon-2 c-icon-2-4" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                    </div>
+                    <ul class="menu-4-1 w-full">
+                      <div class="flex py-4 px-4 lg:px-5 items-center cursor-pointer border-gray-200">
+                        <div class="mr-1 lg:mr-2 flex flex-shrink-0 justify-center items-center bg-gray-300 number">1
+                        </div>
+                        <div class="text-sm lg:text-base mr-6 ">Outro</div>
+                        <div class="flex ml-auto items-center flex-shrink-0">
+                          <span class="text-sm text-gray-500">00:20</span>
+                        </div>
+                      </div>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+
+              <!--자주묻는질문-->
+              <div id="faq">
+                <div class="pt-20 lg:pt-32 q">
+                  <h2 class="font-bold text-xl lg:text-2xl" style="line-height:30px;">
+                    자주 묻는 질문
+                  </h2>
+                  <div class="q-un mt-8 lg:mt-6 flex flex-col space-y-2 lg:space-y-4">
+                    <div class="list border rounded border-gray-300 overflow-hidden">
+                      <div class="list-1 flex p-4 max-w-full cursor-pointer bg-gray-50 border-0">
+                        <span class="text-sm lg:text-base">Q. [학습] 필요한 선수 지식이 있나요?</span>
+                        <span class="icon-1 icon-1-1 active3" style="width:20px;"><i
+                            class="fas fa-chevron-down"></i></span>
+                        <span class="icon-2 icon-2-1" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                      </div>
+                      <div class="list-1-1 border-t border-gray-300 w-full">
+                        <div class="flex py-4 px-4 lg:px-5 items-start cursor-pointer border-gray-200">
+                          <div class="flex-shrink-0 w-3.5 lg:w-4 h-auto">A.</div>
+                          <div class="text-sm ml-2 mt-0.5">본 강의는 웹서비스를 직접 만드는 실습형 강의로, 기본적인 HTML,CSS,JavaScript 지식이 있는
+                            분들의 눈높이로 커리큘럼이 구성되어 있습니다.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list border rounded border-gray-300 overflow-hidden">
+                      <div class="list-2  flex p-4 max-w-full cursor-pointer bg-gray-50 border-0">
+                        <span class="text-sm lg:text-base ">Q. [강의] 강의는 어떻게 진행되나요?</span>
+                        <span class="icon-1 icon-1-2 active3" style="width:20px;"><i
+                            class="fas fa-chevron-down"></i></span>
+                        <span class="icon-2 icon-2-2" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                      </div>
+                      <div class="list-2-1 border-t border-gray-300 w-full">
+                        <div class="flex py-4 px-4 lg:px-5 items-start cursor-pointer border-gray-200">
+                          <div class="flex-shrink-0 w-3.5 lg:w-4 h-auto">A.</div>
+
+                          <div class="text-sm ml-2 mt-0.5">'돈이 되는 세렝게티 동물 테스트 만들기'는 온라인 동영상으로 이우어진 강의입니다. 직접 컴퓨터에 개발을 위한
+                            환경을 설정하고 다양한 서비스를 함께 만들어 봅시다.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list border rounded border-gray-300 overflow-hidden">
+                      <div class="list-3  flex p-4 max-w-full cursor-pointer bg-gray-50 border-0">
+                        <span class="text-sm lg:text-base">Q. [강의] 수강기간 일시정지는 할 수 없나요?</span>
+                        <span class="icon-1 icon-1-3 active3" style="width:20px;"><i
+                            class="fas fa-chevron-down"></i></span>
+                        <span class="icon-2 icon-2-3" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                      </div>
+                      <div class="list-3-1 border-t border-gray-300 w-full">
+                        <div class="flex py-4 px-4 lg:px-5 items-start cursor-pointer border-gray-200">
+                          <div class="flex-shrink-0 w-3.5 lg:w-4 h-auto">A.</div>
+                          <div class="text-sm ml-2 mt-0.5">수강기간 일시정지가 불가능하며, 프로그램 시작일로부터 6주까지 강의 수강이 가능합니다.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list border rounded border-gray-300 overflow-hidden">
+                      <div class="list-4  flex p-4 max-w-full cursor-pointer bg-gray-50 border-0">
+                        <span class="text-sm lg:text-base">Q. [기타] 내일배움카드로 수강이 가능한가요?</span>
+                        <span class="icon-1 icon-1-4 active3" style="width:20px;"><i
+                            class="fas fa-chevron-down"></i></span>
+                        <span class="icon-2 icon-2-4" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                      </div>
+                      <div class="list-4-1 border-t border-gray-300 w-full">
+                        <div class="flex py-4 px-4 lg:px-5 items-start cursor-pointer border-gray-200">
+                          <div class="flex-shrink-0 w-3.5 lg:w-4 h-auto">A.</div>
+                          <div class="text-sm ml-2 mt-0.5">국비과정에 해당하지 않기 때문에 내일배움카드로 수강이 불가합니다.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list border rounded border-gray-300 overflow-hidden">
+                      <div class="list-5  flex p-4 max-w-full cursor-pointer bg-gray-50 border-0">
+                        <span class="text-sm lg:text-base">Q. [기타] 권장 노트북 사양은 어떻게 되나요?</span>
+                        <span class="icon-1 icon-1-5 active3" style="width:20px;"><i
+                            class="fas fa-chevron-down"></i></span>
+                        <span class="icon-2 icon-2-5" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                      </div>
+                      <div class="list-5-1 border-t border-gray-300 w-full">
+                        <div class="flex py-4 px-4 lg:px-5 items-start cursor-pointer border-gray-200">
+                          <div class="flex-shrink-0 w-3.5 lg:w-4 h-auto">A.</div>
+                          <div class="text-sm ml-2 mt-0.5">Windows의 경우 Windows 7 이상, CPU 인텔 코어 i3 이상, RAM 4GB 또는 8GB 이상의
+                            사양을 권장하며, macOS이 경우 Sierra(version 10.12) 이상의 사양을 권장드립니다.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list border rounded border-gray-300 overflow-hidden">
+                      <div class="list-6  flex p-4 max-w-full cursor-pointer bg-gray-50 border-0">
+                        <span class="text-sm lg:text-base">Q. [기타] 수강 관련 증명 서류를 발급받을 수 있나요?</span>
+                        <span class="icon-1 icon-1-6 active3" style="width:20px;"><i
+                            class="fas fa-chevron-down"></i></span>
+                        <span class="icon-2 icon-2-6" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                      </div>
+                      <div class="list-6-1 border-t border-gray-300 w-full">
+                        <div class="flex py-4 px-4 lg:px-5 items-start cursor-pointer border-gray-200">
+                          <div class="flex-shrink-0 w-3.5 lg:w-4 h-auto">A.</div>
+                          <div class="text-sm ml-2 mt-0.5">영수증은 최종 결제 완료 후, 교육 확인증은 프로그램 종료 후, 수료증은 프로그램 종료 후에 모든 수료 조건
+                            만족 시 발급받으실 수 있습니다.</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list border rounded border-gray-300 overflow-hidden">
+                      <div class="list-7 flex p-4 max-w-full cursor-pointer bg-gray-50 border-0">
+                        <span class="text-sm lg:text-base">Q. [기타] 환불 규정은 어떻게 되나요?</span>
+                        <span class="icon-1 icon-1-7 active3" style="width:20px;"><i
+                            class="fas fa-chevron-down "></i></span>
+                        <span class="icon-2 icon-2-7" style="width:20px;"><i class="fas fa-chevron-up"></i></span>
+                      </div>
+                      <div class="list-7-1 border-t border-gray-300 w-full">
+                        <div class="flex py-4 px-4 lg:px-5 items-start cursor-pointer ">
+                          <div class="flex-shrink-0 w-3.5 lg:w-4 h-auto">A.</div>
+                          <div class="text-sm ml-2 mt-0.5">본 강의의 환불 규정은 PRORECT LION 환불규정을 따릅니다.</div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--결제하기-->
+          <div class="w-full lg:w-1/3 h-auto hidden lg:block lg:sticky" style="top:156px;">
+            <div class="px-4 pt-5 lg:p-6 lg:border lg:border-gray-300 lg:rounded-lg ">
+              <div class="box-title flex justify-between items-start relative ">
+                <h3 class="mb-6 text-2xl break-words">돈이 되는 세렝게티 동물 테스트 만들기</h3>
+                <div>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                    class="w-6 h-auto mt-1.5 ml-5 flex-shrink-0 cursor-pointer">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                      d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z">
+                    </path>
+                  </svg>
+                </div>
+              </div>
+              <div class="box-add flex flex-col ">
+                <ul class="flex flex-col space-y-3">
+                  <li class="flex space-x-5 items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                      class="w-5 h-5 text-gray-500 opacity-40">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                    <span class="text-sm">총 25개 수업 ∙ 2시간 8분</span>
+                  </li>
+                  <li class="flex space-x-5 items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                      class="w-5 h-5 text-gray-500 opacity-40">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z">
+                      </path>
+                    </svg>
+                    <span class="text-sm">학습 기간 6주</span>
+                  </li>
+                  <li class="flex space-x-5 items-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                      class="w-5 h-5 text-gray-500 opacity-40">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z">
+                      </path>
+                    </svg>
+                    <span class="text-sm">난이도 입문 이상</span>
+                  </li>
+                </ul>
+                <hr class="border-gray-300 my-6">
+                <div class="flex flex-col">
+                  <div class="flex justify-between items-center">
+                    <span class="font-bold text-2xl">금액</span>
+                    <div class="flex items-center font-bold"><span class="text-2xl">20,000원</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a href="#"
+                class="btn flex justify-center items-center w-full mt-4 py-4 px-14 rounded bg-yellow-450"><span
+                  class="text-white text-xl font-bold">결제하기</span></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!--하단결제하기-->
+      <div class="lg:hidden fixed">
+        <div class="py-3 px-4">
+          <div class="flex"><a href="#"
+              class="flex-1 block rounded text-xl font-bold text-center py-2 text-white bg-yellow-450"
+              style="letter-spacing:1.2px;">20,000원 결제하기</a></div>
+        </div>
+      </div>
+    </section>
+  </div>
+  <!--푸터-->
+  <footer class="footer bg-white border-t border-gray-300  mt-10">
+    <div class="footer-box px-4 xl:px-6 py-11 max-w-7xl mx-auto">
+      <div class="footer-box__inner flex flex-col lg:flex-row lg:justify-between">
+        <div>
+          <a href="#"><img src="https://i.imgur.com/Q7JWZnY.png" alt="" style="height: 38px;"></a>
+        </div>
+        <div class="flex flex-col lg:flex-row space-y-8 lg:space-y-0 lg:space-x-20 xl:space-x-28 mt-8 lg:mt-0">
+          <div class="div-1">
+            <h3 class="text-base font-bold">
+              PROJECT LION
+            </h3>
+            <div class="mt-4 space-y-2 text-sm text-gray-500">
+              <a href="#">멋쟁이사자처럼 소개</a>
+            </div>
+          </div>
+          <div class="div-2">
+            <h3 class="text-base font-bold">Community</h3>
+            <ul class="mt-4 md:mt-6 lg:mt-4 space-x-6 lg:space-x-0 lg:space-y-4 flex lg:flex-col">
+              <li class="text-xs">
+                <a href="#" class="flex items-center">
+                  <img src="https://i.imgur.com/VAD0dvw.png" class="w-6 h-6 lg:w-5 lg:h-5">
+                  <span class="hidden ml-2 md:inline">Facebook</span>
+                </a>
+              </li>
+              <li class="text-xs">
+                <a href="#" class="flex items-center">
+                  <img src="https://i.imgur.com/2w4Gyaa.png" class="w-6 h-6 lg:w-5 lg:h-5">
+                  <span class="hidden ml-2 md:inline">Instagram</span>
+                </a>
+              </li>
+              <li class="text-xs">
+                <a href="#" class="flex items-center">
+                  <img src="https://i.imgur.com/K93pFji.png" class="w-6 h-6 lg:w-5 lg:h-5">
+                  <span class="hidden ml-2 md:inline">Brunch</span>
+                </a>
+              </li>
+              <li class="text-xs">
+                <a href="#" class="flex items-center">
+                  <img src="https://i.imgur.com/eNbbH2A.png" class="w-6 h-6 lg:w-5 lg:h-5">
+                  <span class="hidden ml-2 md:inline">Youtube</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="div-3">
+            <h3 class="text-base font-bold">Help Center</h3>
+            <div class="mt-4 mb-2">
+              <a href="#"
+                class="footer-btn flex justify-center py-3 lg:px-28 items-center rounded-lg border border-gray-500 w-full">
+                <span class="text-xs font-semibold flex-shrink-0">1:1 문의하기</span>
+              </a>
+              <ul class="mt-2 space-y-1">
+                <li>
+                  <span class="text-xs text-gray-500 ">전화상담 | 02-6203-2220</span>
+                </li>
+                <li>
+                  <span class="text-xs text-gray-500 ">상담시간 | 11:00 - 19:00 (주말, 공휴일 제외)</span>
+                </li>
+                <li class="space-x-2">
+                  <span class="text-xs text-gray-500">궁금한 것이 있으신가요?
+                    <a href="#" class="underline font-semibold text-black">자주 묻는 질문</a>
+                  </span>
+                </li>
+                <li>
+                  <span class="text-xs font-semibold text-yellow-450">🦁 1:1 문의 시 더 빠른 답변을 받으실 수 있습니다.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="border-gray-300 w-full mt-8 lg:mt-6">
+      <div class="mt-8">
+        <div class="flex items-center space-x-2 text-xs">
+          <a href="#" class="text-gray-500">이용약관</a>
+          <span class="w-1 h-1 rounded-full bg-gray-500"></span>
+          <a href="#" class="text-gray-500">개인정보처리방침</a>
+          <span class="w-1 h-1 rounded-full bg-gray-500"></span>
+          <a href="#" class="text-gray-500">환불규정</a>
+        </div>
+        <div class="mt-2">
+          <div class="flex flex-col lg:flex-row">
+            <div class="text-xs text-gray-500  whitespace-nowrap">
+              <span class="pr-2 border-r border-gray-500">PROJECT LION</span>
+              <span class="px-2 border-r border-gray-500">CEO duhee Lee&nbsp;</span>
+              <span class="px-2 border-r border-gray-500">works@likelion.net&nbsp;</span>
+              <span class="p-2 border-gray-500">사업자 번호 : 264-88-01106 통신판매업 신고번호 : 2019 - 서울강남 -
+                00774&nbsp;&nbsp;&nbsp;주소 : 서울특별시 강남구 봉은사로82길 13</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--푸터 끝-->
+</body>
+
+</html>

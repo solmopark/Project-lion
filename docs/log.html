@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project-lion_log-in|비상업적 가시안이며 취업지원 포트폴리오 용도로만 사용됩니다.|</title>
+  <!--제이쿼리-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <!--테일윈드-->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--폰트어썸-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="css/log.css">
+</head>
+
+<body>
+  <!-- 로그인시작 -->
+  <div class="root">
+    <div class="min-h-screen bg-gray-50">
+      <div class="flex justify-center">
+        <div class="py-12 my-16 bg-white rounded-lg WrapperScreen">
+          <div>
+            <a href="https://solmopark.github.io/Project-lion/" class="text-4xl font-bold ">
+              <!-- Project <br>Lion -->
+              <img src="img/logo-small.png" alt="" class="w-1/2">
+            </a>
+          </div>
+          <!-- 인사 -->
+          <h2 class="mt-6 mb-2 font-bold">안녕하세요! 👋</h2>
+          <p class="text-xs">
+            PROJECT LION에서 당신의 아이디어를
+            <br>
+            현실로 만들 수 있습니다.
+          </p>
+          <!-- 입력 -->
+          <form method="post">
+            <div class="mt-12">
+              <input type="text" class="input-e rounded-lg block w-full py-3 px-4 mb-3 text-sm placeholder-gray-300"
+                placeholder="이메일">
+              <ul class="mb-4 text-gray-500 text-sm ">
+                <li class="arl flex space-x-2 items-center">
+                  <div>
+                    <i class="fas fa-exclamation-circle"></i>
+                  </div>
+                  <p class="text-xs">
+                    이메일을 입력해주세요
+                  </p>
+                </li>
+              </ul>
+              <div class="relative">
+                <input type="password" placeholder="비밀번호"
+                  class="input-p rounded-lg block w-full py-3 px-4 mb-3 text-sm placeholder-gray-300">
+                <button type="button" class="absolute outline-none" style="top: 15px; right: 40px;">
+                  <i class="ico-1 far fa-eye-slash absolute w-5 h-auto text-gray-300"></i>
+                </button>
+              </div>
+            </div>
+            <ul class="mb-4 text-gray-500 text-sm ">
+              <li class="arl flex space-x-2 items-center">
+                <div>
+                  <i class="fas fa-exclamation-circle"></i>
+                </div>
+                <p class="text-xs">
+                  비밀번호를 입력해주세요
+                </p>
+              </li>
+            </ul>
+            <div class="mt-12">
+              <button class="btn-2__1 flex justify-center py-3 items-center w-full rounded-lg outline-none">
+                <span class="text-white text-tiny font-semibold cursor-not-allowed">로그인 하기</span>
+              </button>
+              <a href="sing.html" class="btn-2__2 mt-2 flex justify-center py-3 items-center w-full rounded-lg border">
+                <span class="text-tiny font-semibold">
+                  회원가입 하기
+                </span>
+              </a>
+            </div>
+          </form>
+          <div class="mt-8">
+            <div class="flex justify-center items-center space-x-4">
+              <a href="#" class="text-xs text-gray-500 font-semibold">
+                아이디 찾기
+              </a>
+              <span class="spot w-1 h-1 bg-gray-500"></span>
+              <a href="#" class="text-xs text-gray-500 font-semibold">
+                비밀번호 찾기
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 로그인 끝-->  
+</body>
+
+</html>

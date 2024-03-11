@@ -1,0 +1,54 @@
+/* 폰트적용 */
+@font-face {
+    font-family: "GmarketSansMedium";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+      format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  html > body {
+    font-family: "GmarketSansMedium";
+  }
+  
+  /* 로고 */
+  .WrapperScreen {
+    height: 660px;
+    width: 572px;
+    padding: 0 16px;
+  }
+  
+  .logo {
+    width: 92px;
+  }
+  
+  /* 상단텍스트 */
+  .WrapperScreen > h2 {
+    font-size: 32px;
+  }
+  
+  /* 입력란 */
+  .input-e,
+  .input-p {
+    border-width: 1px;
+    border-color: rgba(212, 212, 212, 1);
+  }
+  
+  .arl {
+    color: #ef4444;
+  }
+  
+  /* 입력란2 */
+  .btn-2__1 {
+    background-color: #e67800;
+  }
+  
+  .btn-2__2 > span {
+    color: #e67800;
+  }
+  
+  /* 하단 */
+  .spot {
+    border-radius: 50%;
+  }
+  

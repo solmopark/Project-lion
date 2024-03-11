@@ -1,0 +1,180 @@
+
+/* 폰트적용 */
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css");
+
+@font-face {
+  font-family: "GmarketSansMedium";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+html > body {
+  font-family: "Pretendard";
+}
+
+:root {
+  --site-width: 1500px;
+}
+.con {
+  max-width: var(--site-width);
+}
+.section-1{
+  scroll-margin-top:156px;
+  margin-bottom:220px;
+}
+
+.bg-yellow-450 {
+  background-color: #e67800;
+}
+
+.text-yellow-450 {
+  color: #e67800;
+}
+
+/*탑바*/
+.top-bar{
+  min-width:320px;
+}
+.top-btn{
+  border-radius:20px;
+  padding-bottom:8.5px;
+  padding-top:7px;
+}
+/*탑바 끝*/
+
+/*배너 시작*/
+.banner{
+  height:400px;
+  max-width:1920px;
+}
+@media(max-width:1023px){.banner{
+  background-image:url(https://d35ai18pny966l.cloudfront.net/course/mbti_hero_1024.png);
+  background-position:50%;
+  background-size:cover;
+  height:300px;
+  }}
+.banner__title{
+  color:rgb(34,34,34);
+  font-size:32px;
+  width:530px;
+}
+@media(max-width:1023px){
+  .banner__title{
+    width:355px;
+  }
+}
+.banner__sub{
+  color:rgb(34,34,34);
+  font-size:18px;
+  width:280px;
+  word-break:keep-all;
+}
+@media(max-width:1023px){
+  .banner__sub{
+    width:240px;
+  }
+}
+/*배너 끝*/
+
+/*내비 탭*/
+.nav-tap{
+  top:64px;
+  height:52px;
+}
+.nav-tap>div{
+  height:52px;
+}
+.intro,.curr,.faq{
+color: rgba(107, 114, 128,1);
+}
+.click{
+  border-bottom:2px solid rgba(230,120,0,1);
+  color:rgba(230,120,0,1);
+}
+/*내비 탭 끝*/
+
+/*커리큘럼*/
+.curriculum{
+  scroll-margin-top:156px;
+}
+/*2차메뉴 번호*/
+.number{
+  border-radius:50%;
+  width:22px;
+  height:22px;
+  color:white;
+  font-size:0.75rem;
+}
+ul>li{
+  position:relative;
+}
+ul>li>ul{
+  display:none;
+}
+ul>li.active>ul{
+  display:block;
+}
+.c-icon-1,.c-icon-2{
+  position:absolute;
+  right:10px;
+  display:none;
+}
+.active-1{
+  display:block;
+}
+/*커리큘럼 끝*/
+
+/*자주묻는질문*/
+.list-1,
+.list-2,
+.list-3,
+.list-4,
+.list-5,
+.list-6,
+.list-7 {
+  position: relative;
+  border: 1px solid rgba(209, 213, 219, 1);
+}
+.list-1-1,
+.list-2-1,
+.list-3-1,
+.list-4-1,
+.list-5-1,
+.list-6-1,
+.list-7-1 {
+  display: none;
+}
+.active2 {
+  display: block;
+}
+.icon-1,
+.icon-2 {
+  position: absolute;
+  right: 10px;
+  display: none;
+}
+.active3 {
+  display: block;
+}
+/*자주묻는질문 끝*/
+
+/*결제하기 하단버튼*/
+.fixed{
+  position:fixed;
+  display:block;
+  left:0;
+  bottom:0;
+  border-top-width:1px;
+  min-width:320px;
+  z-index:30;
+  width:100%;
+}
+/*결제하기 하단버튼 끝*/
+
+/*푸터*/
+.footer{
+  min-width:320px;
+}
+/*푸터 끝*/
